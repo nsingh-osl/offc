@@ -1,1 +1,27 @@
-
+<Configuration ID="e17ae38b-50ab-4842-afab-e5b60f9b8612">
+  <Add OfficeClientEdition="64" Channel="Broad">
+    <Product ID="ProPlusRetail">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Teams" />
+      <ExcludeApp ID="Publisher" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="1" />
+  <Property Name="PinIconsToTaskbar" Value="TRUE" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Updates Enabled="FALSE" />
+  <RemoveMSI />
+  <AppSettings>
+    <Setup Name="Company" Value="OSL Retail Services" />
+  </AppSettings>
+  <Display Level="None" AcceptEULA="TRUE" />
+  <Logging Level="Off" />
+</Configuration>
